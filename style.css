@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+.white-color {
+  color: white;
+}
+.flex-item {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  margin: 2%;
+  padding: 2%;
+}
+.style-img {
+  width: 80%;
+}
+.dream-big {
+  width: 50%;
+  margin-top: -1%;
+  overflow: hidden;
+  background: #fff;
+}
+.upper-svg {
+  background-color: #ffd700;
+}
+.fulstack-web {
+  box-shadow: 10px 10px 40px;
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, magenta, green);
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+.baby-web {
+  box-shadow: 10px 10px 40px;
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, yellow, cyan);
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+.contact-us-svg {
+  background-color: #ffd700;
+}
+.contact-us h1 {
+  text-align: center;
+}
+.contact-us-form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 5%;
+  box-shadow: 10px 10px 50px 10px;
+}
+input {
+  margin: 1% 0%;
+  padding: 1% 0%;
+  width: 30%;
+  transition: 0.8s;
+}
+input:focus {
+  width: 100%;
+}
+.btn {
+  padding: 1% 11%;
+  border-radius: 5px;
+  font-weight: 700;
+  background-image: linear-gradient(180deg, whitesmoke, white);
+  background-image-slice: 1;
+}
+footer {
+  text-align: center;
+  padding: 1%;
+  margin-top: -1%;
+  background: white;
+}
+/* 
+.image-border {
+  border: 30px solid;
+  border-image-slice: 100%;
+  border-image-source: url(images/border2.png);
+  border-image-slice: 40;
+} */
+/* .bg-img {
+  background-image: url(images/jhankar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-size: 40%;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: right;
+}
+.dream-big-bg {
+  background-image: url(images/jhankar2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-size: 40%;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: left;
+} */
